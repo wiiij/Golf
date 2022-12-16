@@ -41,7 +41,7 @@ request.setCharacterEncoding를 UTF-8로 지정해주어 데이터의 값이 정
 DB 연결 후, 테이블 컬럼 순서를 맞추어준 후, 페이지의 name 값을 컬럼명과 같도록 입력하여 데이터를 ?로 넣어주며 업데이트가 가능하게 해줍니다. <br>
 
 <b>회원정보조회</b> <br>
-회원정보조회 화면
+회원정보조회 화면 <br>
 ![image](https://user-images.githubusercontent.com/102115231/208014061-5386f23d-1e85-4fe9-b16f-e7c5c99e3e37.png) <br>
 <br>
 <br>
@@ -56,8 +56,6 @@ class테이블 자체를 기본으로해서 member테이블과 회원번호를 �
 
 <b>강사매출현황</b> </br>
 강사매출현황 화면 <br>
-<br>
-<br>
 ![image](https://user-images.githubusercontent.com/102115231/208015259-c4fb99f9-3568-46c2-bcad-4a4da904d8e4.png)<br>
 <br>
  <b>String sql = "select T.TEACHER_CODE,T.CLASS_NAME,T.TEACHER_NAME, to_char(sum(C.TUITION), 'L999,999')TUITION <br>
