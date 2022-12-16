@@ -11,9 +11,9 @@
 <nav id = "nav">
 <ul>
 <li><a href = "강사조회.jsp">강사조회</a></li>
-<li><a href = "#">수강신청</a></li>
-<li><a href = "#">회원정보조회</a></li>
-<li><a href = "#">강사매출현황</a></li>
+<li><a href = "수강신청.jsp">수강신청</a></li>
+<li><a href = "회원정보조회.jsp">회원정보조회</a></li>
+<li><a href = "강사매출현황.jsp">강사매출현황</a></li>
 <li><a href = "index.jsp">홈으로</a></li>
 </ul>
 </nav>
